@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario</title>
+        <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form method="POST" action="formulario.php">
+        <h2>Registrate: </h2>
+        <div class="nombres">
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" class="form-imput" required/>
+
+        <label for="apellido1">Primer Apellido</label>
+        <input type="text" name="apellido1" class="form-imput" required/>
+
+        <label for="apellido2">Segundo Apellido</label>
+        <input type="text" name="apellido2" class="form-imput" required/>
+
+        <label for="email">Email</label>
+        <input type="text" name="email" class="form-imput" required/>
+
+        <label for="usuario">Usuario</label>
+        <input type="text" name="usuario" class="form-imput" required/>
+
+        <label for="contraseña">Contraseña</label>
+        <input type="text" name="contraseña" class="form-imput" required/>
+
+        <input class="form-btn" name="submit" type="submit" value="Enviar"/>
+        <a href="basededatos.php" class="btn"> Consulta los registros</a>
+    </div>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>

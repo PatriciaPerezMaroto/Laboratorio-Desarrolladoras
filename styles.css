@@ -1,0 +1,64 @@
+body {
+    margin-top: 50px;
+    font-family: Helvetica;
+    text-transform: initial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    min-height: 100px;
+    background-color: white;
+}
+form{
+    width: 400px;
+    border-radius: 1px;
+    border-radius: 20px;
+    width: 350px;
+    height: 570px;
+    border: solid black;
+    background-color: #f6f6f6;
+    
+}
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.form-imput{
+    margin-bottom: 10px;
+    background-color: white;
+    width: 290px;
+    border-radius: 2px;
+    padding: 5px;
+    
+}
+input[type=text]
+{
+    margin-top: 10px;
+    display: relative;
+    
+}
+.btn{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: small;
+    
+}
+.form-btn{
+    
+    border-radius: 20px;
+    display: relative;
+    margin-left: 126px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-size: large
+}
+.nombres{
+    padding-left: 22px;
+}

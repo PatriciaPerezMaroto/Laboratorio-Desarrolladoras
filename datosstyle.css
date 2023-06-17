@@ -1,0 +1,23 @@
+body {
+    background-color: white;
+}
+
+table {
+    margin-top: 0 auto;
+    border-collapse: collapse;
+    background-color: black;
+    color: white;
+    font-family:Helvetica;
+    font-size: 15px;
+}
+th{
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+    font-family: helvetica;
+    padding: 15px;
+}
+
+td{
+    padding: 14px;
+}
